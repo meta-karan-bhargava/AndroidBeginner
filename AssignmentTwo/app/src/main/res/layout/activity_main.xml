@@ -5,22 +5,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textLifeCycleMain"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="@string/Main_activity"
-        android:textSize="18dp"
-        android:textStyle="bold" />
+
 
     <Button
         android:id="@+id/button1"
         android:layout_width="200dp"
         android:layout_height="60dp"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/textLifeCycleMain"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="135dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="48dp"
         android:background="#f55"
         android:padding="10dp"
         android:text="@string/standard"
@@ -33,7 +27,8 @@
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="12dp"
         android:background="#f55"
         android:padding="10dp"
         android:text="@string/singleTop"
@@ -64,7 +59,7 @@
         android:layout_marginTop="17dp"
         android:background="#f55"
         android:padding="10dp"
-        android:text="@string/singleTop"
+        android:text="@string/singleInstance"
         android:textColor="#000"
         android:textSize="14sp"
         android:textStyle="bold" />
