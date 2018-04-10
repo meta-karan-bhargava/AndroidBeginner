@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AssignmentTwo</string>
+    <string name="Main_activity">MainActivity</string>
+    <string name="standard">Standard Launch Mode</string>
+    <string name="singleTop">Single-Top Launch Mode</string>
+    <string name="singleTask">Single-Task Launch Mode</string>
+    <string name="singleInstance">Single-Instance Launch Mode</string>
+</resources>
