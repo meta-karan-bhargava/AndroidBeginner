@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AssignmentThree</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_first_message">Hello Fragment First</string>
+    <string name="fragment_second_message">Hello Fragment Second</string>
+    <string name="a2f_button">Activity to Fragment</string>
+    <string name="f2a_button">Add (Fragment to Activity)</string>
+</resources>

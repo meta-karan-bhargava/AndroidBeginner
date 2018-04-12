@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.assignment1.karan.assignmentthree.FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/fragmentAText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:text="@string/fragment_first_message" />
+
+    <Button
+        android:id="@+id/buttonFtoA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fragmentAText"
+        android:layout_alignStart="@+id/fragmentAText"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="15dp"
+        android:text="@string/f2a_button" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="47dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonFtoA"
+        android:layout_alignStart="@+id/buttonFtoA"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="number" />
+
+</RelativeLayout>
