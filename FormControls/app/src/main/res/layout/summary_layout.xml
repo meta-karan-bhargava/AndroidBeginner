@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollViewSummary"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:id="@+id/FormLayoutSummary"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <!--Put form controls here-->
+        <TextView
+            android:id="@+id/SummaryTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feedbacktitlesummary"
+            android:textSize="15pt">
+        </TextView>
+        <TextView
+            android:id="@+id/nameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_label"
+            android:textSize="10pt">
+        </TextView>
+
+        <TextView
+            android:id="@+id/emailLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_label"
+            android:textSize="10pt">
+        </TextView>
+
+        <TextView
+            android:id="@+id/feedbackTypeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/response_label"
+            android:textSize="10pt">
+        </TextView>
+
+        <TextView
+        android:id="@+id/feedbackLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/body_label"
+        android:textSize="10pt">
+        </TextView>
+
+        <TextView
+            android:id="@+id/responseLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/response_label"
+            android:textSize="10pt">
+        </TextView>
+
+        <TextView
+            android:id="@+id/ratingLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rating_label"
+            android:textSize="10pt">
+        </TextView>
+
+
+
+    </LinearLayout>
+</ScrollView>

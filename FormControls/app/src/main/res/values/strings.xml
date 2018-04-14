@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FormControls</string>
+
+    <string name="feedbacktitle">Please enter your feedback\n</string>
+    <string name="feedbackname">Your Name</string>
+    <string name="feedbackemail">Your Email</string>
+    <string name="feedbacktype">Feedback Type</string>
+    <string name="feedbackbody">Add your comments</string>
+    <string name="feedbackresponse">I want an Email Response</string>
+    <string name="feedbackbutton">Send FeedBack</string>
+    <string name="feedbackapp">Please select rating for the app</string>
+
+    <string name="feedbacktitlesummary">Thank you for your feedback !!\n</string>
+    <string name="name_label">Your Name</string>
+    <string name="email_label">Your Email</string>
+    <string name="type_label">Your chosen Type</string>
+    <string name="body_label">Your comments</string>
+    <string name="response_label">Opt to communicate via Email</string>
+    <string name="rating_label">Your rating for the app</string>
+
+
+    <string name="feedbacktype1">Praise</string>
+    <string name="feedbacktype2">Gripe</string>
+    <string name="feedbacktype3">Suggestion</string>
+    <string name="feedbacktype4">Bug</string>
+</resources>
