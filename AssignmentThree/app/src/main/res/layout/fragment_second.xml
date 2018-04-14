@@ -6,8 +6,11 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/fragmentBText"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
         android:text="@string/fragment_second_message" />
 
 </FrameLayout>

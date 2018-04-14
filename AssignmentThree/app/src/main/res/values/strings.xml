@@ -6,4 +6,5 @@
     <string name="fragment_second_message">Hello Fragment Second</string>
     <string name="a2f_button">Activity to Fragment</string>
     <string name="f2a_button">Add (Fragment to Activity)</string>
+    <string name="f2f_button">Fragment A to Fragment B</string>
 </resources>

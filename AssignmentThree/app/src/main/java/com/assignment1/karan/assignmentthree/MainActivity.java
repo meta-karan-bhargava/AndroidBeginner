@@ -43,7 +43,23 @@ public class MainActivity extends AppCompatActivity implements FirstFragment.IFr
     public void addNumbers(int firstNo, int secondNo) {
         int sum = firstNo + secondNo;
         String message = "Adding two nos in MainActivity\n";
-        message += "The sum of " + firstNo + " and " + secondNo + " is";
+        message += "The sum of " + firstNo + " and " + secondNo + " is ";
         Toast.makeText(this, message + sum, Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void communicateToOtherFragment(String message) {
+        try {
+            Bundle bundle = new Bundle();
+            bundle.putString("Message", message);
+            Fragment secondFragment = new SecondFragment();
+            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.fragment_container, secondFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+            secondFragment.setArguments(bundle);
+        }catch(Exception e) {
+            Log.v("Error", e.getLocalizedMessage());
+        }
     }
 }
