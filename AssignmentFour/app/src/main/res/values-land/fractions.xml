@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fractions for landscape mode -->
+<resources>
+    <item name="android_icon" type="fraction">50%</item>
+    <item name="metacube_icon" type="fraction">50%</item>
+    <item name="social_icon" type="fraction">50%</item>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/forecast"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/forecast_grid_background"
+    app:alignItems="center"
+    app:flexWrap="wrap"
+    app:justifyContent="space_around">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/r1c2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        app:layout_flexBasisPercent="@fraction/metacube_icon"
+        app:srcCompat="@drawable/ic_metacube_logo"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/r1c1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        app:layout_flexBasisPercent="@fraction/android_icon"
+        app:srcCompat="@drawable/ic_metacube_logo"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/r1c3"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        app:layout_flexBasisPercent="@fraction/android_icon"
+        app:srcCompat="@drawable/ic_metacube_logo"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/r2c1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        app:layout_flexBasisPercent="@fraction/social_icon"
+        app:srcCompat="@drawable/ic_metacube_logo"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/r2c2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        app:layout_flexBasisPercent="@fraction/social_icon"
+        app:srcCompat="@drawable/ic_metacube_logo"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/r2c3"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        app:layout_flexBasisPercent="@fraction/social_icon"
+        app:srcCompat="@drawable/ic_metacube_logo"/>
+
+</com.google.android.flexbox.FlexboxLayout>
