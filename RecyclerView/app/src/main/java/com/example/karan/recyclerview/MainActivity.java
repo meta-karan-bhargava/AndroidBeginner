@@ -14,9 +14,11 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
+    private PlaceHolder mplaceHolder;
     private LinearLayoutManager mLayoutManager;
     private GridLayoutManager mGridManager;
     private String[] myDataset = new String[10];
+    private Integer[] myImages = new Integer[10];
     private final Integer SPAN_COUNT = 2;
 
     @Override
@@ -38,16 +40,19 @@ public class MainActivity extends AppCompatActivity {
         else {
             mRecyclerView.setLayoutManager(mGridManager);
         }
-
+        mplaceHolder = new PlaceHolder(myDataset, myImages);
         // specify an adapter
-        mAdapter = new MyAdapter(myDataset);
+        mAdapter = new MyAdapter(mplaceHolder);
         mRecyclerView.setAdapter(mAdapter);
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(mRecyclerView.getContext(),
                 mLayoutManager.getOrientation());
         mRecyclerView.addItemDecoration(dividerItemDecoration);
     }
     private void initDataset() {
-        for(int i=0; i<=9; i++)
+        for(int i=0; i<=9; i++) {
             myDataset[i] = "Dataset " + i;
+            myImages[i] = R.drawable.ic_if__android_1156668;
+        }
+
     }
 }
