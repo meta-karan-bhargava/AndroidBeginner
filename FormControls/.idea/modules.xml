@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FormControls.iml" filepath="$PROJECT_DIR$/FormControls.iml" />
+      <module fileurl="file://C:\Users\Karan\AndroidStudioProjects\FormControls\FormControls.iml" filepath="C:\Users\Karan\AndroidStudioProjects\FormControls\FormControls.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Karan\AndroidStudioProjects\FormControls\app\app.iml" filepath="C:\Users\Karan\AndroidStudioProjects\FormControls\app\app.iml" />
     </modules>
   </component>
 </project>

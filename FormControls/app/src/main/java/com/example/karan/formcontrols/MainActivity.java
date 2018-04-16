@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         custEmail = email.getText().toString();
         custFeedback = feedback.getText().toString();
         custFeedbackType = feedbackSpinner.getSelectedItem().toString();
-        boolean sendEmail = responseCheckbox.isChecked();
+        sendEmail = responseCheckbox.isChecked();
         rating = rBar.getRating();
     }
     public boolean validateForm(List<EditText> editTexts) {

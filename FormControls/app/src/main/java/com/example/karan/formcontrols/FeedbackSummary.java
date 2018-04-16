@@ -32,7 +32,7 @@ public class FeedbackSummary extends AppCompatActivity {
         name.append(": " + summaryIntent.getStringExtra("Name")+ "\n");
         email.append(": " + summaryIntent.getStringExtra("Email")+ "\n");
         feedbackType.append(": " + summaryIntent.getStringExtra("FeedbackType")+ "\n");
-        feedback.append(": " + summaryIntent.getStringExtra("Feedback")+ "\n");
+        feedback.append(": " + summaryIntent.getStringExtra("Feedback").trim()+ "\n");
         response.append(": " + summaryIntent.getStringExtra("SendEmail") + "\n");
         rating.append(": " + summaryIntent.getFloatExtra("Rating", 0.0f) + "\n");
 
