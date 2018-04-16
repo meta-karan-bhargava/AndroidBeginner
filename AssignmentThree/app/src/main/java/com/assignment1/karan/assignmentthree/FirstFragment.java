@@ -55,6 +55,14 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
             if(v.getId()== R.id.buttonFtoA) {
                 if (mListener != null) {
+                    if(editText1.getText().toString().isEmpty()) {
+                        editText1.setError("Please enter a no");
+                        return;
+                    }
+                    if(editText2.getText().toString().isEmpty()) {
+                        editText2.setError("Please enter a no");
+                        return;
+                    }
                     Integer numberOne = Integer.parseInt(editText1.getText().toString());
                     Integer numberTwo = Integer.parseInt(editText2.getText().toString());
                     mListener.addNumbers(numberOne, numberTwo);
